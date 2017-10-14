@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 96385785bc7674e16b511631683b9b7e
+timeCreated: 1507795813
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Microgramma
+  fontNames:
+  - Microgramma
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
