@@ -7,7 +7,7 @@ public class GameChanger : MonoBehaviour
 
 	public  Material Terrain, Cubes, HUD;
 	public static Color colorBg, colorMat;
-	public GameObject ancla;
+	public GameObject ancla, MapGenerator;
 
 
 	// Use this for initialization
@@ -28,8 +28,11 @@ public class GameChanger : MonoBehaviour
 
 	public void SetTerrain ()
 	{
+
 		Terrain.color = colorMat;
 		Cubes.color = colorBg;
+
+		MapGenerator.GetComponent<ChangeAttributes> ().Change (colorMat);
 
 
 	}

@@ -20,12 +20,14 @@ public class Distributor : MonoBehaviour
 		for (int i = 0; i < numeroDeCajas; i++) {
 
 			Vector3 pos = new Vector3 (ancla.transform.position.x + Random.Range (-distanciaDeCajas, distanciaDeCajas),
-				              1,
+				              2,
 				              ancla.transform.position.z + Random.Range (-distanciaDeCajas, distanciaDeCajas));
+
+
 			
 			planos.Add (Instantiate (plano, pos, Quaternion.identity));
+			UpdateText ();
 		}
-		UpdateText ();
 	}
 
 	public void UpdateText ()
